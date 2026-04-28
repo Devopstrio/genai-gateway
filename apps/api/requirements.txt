@@ -1,0 +1,29 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+redis==5.0.4
+prometheus-client==0.20.0
+python-json-logger==2.0.7
+httpx==0.27.0
+pandas==2.2.2
+numpy==1.26.4
+python-jose[cryptography]==3.3.0
+boto3==1.34.82
+azure-mgmt-resource==23.1.1
+azure-identity==1.16.0
+pyyaml==6.0.1
+requests==2.31.0
+jinja2==3.1.3
+python-git==3.1.43
+kubernetes==29.0.0
+# GenAI Specific
+openai==1.30.1
+anthropic==0.26.1
+google-cloud-aiplatform==1.52.0
+# Monitoring
+opentelemetry-api==1.24.0
+opentelemetry-sdk==1.24.0
+opentelemetry-instrumentation-fastapi==0.45b0
